@@ -1,7 +1,9 @@
 import logo from './logo.svg';
+import {useState} from 'react'
 import './App.css';
 
 function App() {
+  const [random, setRandom] = useState('')
   return (
     <div className="App">
       <header className="App-header">
